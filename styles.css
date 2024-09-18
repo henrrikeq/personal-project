@@ -1,28 +1,104 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-
-
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-image: url(./images/bgimg.jpg);
-    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    font-size: 17px;
 }
 
-.heroimg{
-    background-image: url(./images/bgimg.jpg);
-    height: 100vh;
+nav a{
+    color: white;
+    text-decoration: none;
 }
 
-.hero-section{
+.nav-items{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.hero{
+    background-image: url(./images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .overlay{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    gap: 24px;
+}
+
+.hero p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hero-button{
+    background-color: green;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 27px;
+    border: none;
+    font-size: 20px;
+}
+
+#hero-title{
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.work-flex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 273px;
+    height: 100vh;
+
+}
+
+.work-grid{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.work-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    gap: 30px;
+    margin: 170px;
+    height: 600px;
+    width: 539px;
+}
+
+img{
+    height: 600px;
+    width: 539px;
 }
