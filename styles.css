@@ -30,6 +30,9 @@ nav a{
     font-size: 20px;
     padding: 10px;
     margin: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
 }
 
 .hero{
@@ -93,8 +96,12 @@ nav a{
     flex-direction: column;
     padding-right: 10px;
     gap: 30px;
-    margin: 170px;
-    height: 520px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.work-text h4{
+    font-size: 3rem;
 }
 
 img{
@@ -113,8 +120,11 @@ img{
 .exp-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 70px;
+    /* padding-left: 280px; */
+    /* padding-right: 280px; */
     gap: 10px;
+    margin-left: 120px;
+    margin-right: 100px;
 }
 
 .box-items{
@@ -122,10 +132,149 @@ img{
     flex-direction: column;
     gap: 10px;
     background-color: white;
-    border-style: solid;
+    border: 5px solid white;
+    margin: 10px;
+    height: 263px;
+    width: 700px;
+}
+
+.box-items:hover {
+    border-color: green;
 }
 
 .res-sect{
-    background-color: azure;
-    height: 70vh;
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.work-text h5{
+    font-size: 20px;
+}
+
+/* .icons-gallery{
+    
+} */
+.serv-sect{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.icons-gallery{
+    /* width: 500px; */
+    width: 30%;
+    margin-right: 30px;
+    background-color: green;
+    height: 300px;
+    /* margin-left: 20px; */
+    gap: 40px;
+}
+/* .icons-gallery img, span,p{
+    margin-bottom: 20px;
+    align-items: center; */
+/* } */
+/* .icons-gallery span,p{
+    margin-bottom: 20px; */
+/* } */
+.mobile-span{
+    margin-bottom: 20px;
+}
+.icons-gallery img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* gap: 40px; */
+}
+.main-icon{
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.mobile-span{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.p{
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: justify;
+}
+.text-green{
+    margin-top: 10px;
+    margin-left: 40%;
+     color: green;
+}
+
+.ss h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    padding-bottom: 25px;
+}  
+
+.ss{
+    display: flex;
+    flex-direction: column;
+}
+
+.will{
+    display: flex;
+    flex-direction: row;
+    margin-left: 273px;
+    margin-right: 273px;
+    padding: 10px;
+    font-size: 18px;
+    gap: 25px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #4ebe2a;
+    padding: 10px;
+}
+
+.boxxx h6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btnn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    color: #4ebe2a;
+}
+
+.boxxx{
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.boxxx p{
+    margin-top: 15px;
+}
+
+.boxxx i {
+    color: black;
+    font-size: 5rem;
 }
