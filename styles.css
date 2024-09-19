@@ -36,7 +36,7 @@ nav a{
 }
 
 .hero{
-    background-image: url(./images/coffee.jpg);
+    background-image: url(./images/main.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -66,6 +66,31 @@ nav a{
     border-radius: 27px;
     border: none;
     font-size: 20px;
+}
+
+.bg-green{
+    background-color: #4ebe2a;
+    color: white;
+    /* padding: ;16px 24px */
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.bg-ash{
+    background-color: #6c757d;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px;
 }
 
 #hero-title{
@@ -115,6 +140,16 @@ img{
     justify-content: center;
     align-items: center;
     margin: 50px;
+    border-top: 1px solid;
+}
+
+.title h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    gap: 10px;
+    font-weight: none;
 }
 
 .exp-box{
@@ -139,11 +174,11 @@ img{
 }
 
 .box-items:hover {
-    border-color: green;
+    border-color: #57d131;
 }
 
 .res-sect{
-    background-color: gray;
+    background-color: whitesmoke;
     height: 100vh;
     display: flex;
     flex-direction: column;
