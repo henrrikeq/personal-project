@@ -147,30 +147,63 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 30px;
+    font-size: 3rem;
     gap: 10px;
-    font-weight: none;
+    font-weight: lighter;
 }
+
+.title p{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
 
 .exp-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding-left: 280px; */
-    /* padding-right: 280px; */
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 10px;
     margin-left: 120px;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .box-items{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: white;
-    border: 5px solid white;
+    background-color: #f8f9fa;
+    border: 5px solid #f8f9fa;
     margin: 10px;
-    height: 263px;
-    width: 700px;
+    height: 290px;
+    width: 520px;
+}
+
+.date{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.study{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.sch{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.box-items h5{
+    display: flex;
+    flex-direction: row;
+    font-weight: 28px;
 }
 
 .box-items:hover {
@@ -179,7 +212,7 @@ img{
 
 .res-sect{
     background-color: whitesmoke;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
 }
@@ -258,6 +291,8 @@ img{
     justify-content: center;
     font-size: 3rem;
     padding-bottom: 25px;
+    margin-top: 50px;
+    font-weight: lighter;
 }  
 
 .ss{
@@ -319,6 +354,23 @@ img{
     font-size: 3rem;
 }
 
+.footer-pics h4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer-pics h6{
+    display: flex;
+    flex-direction: row;
+    padding-left: 34%;
+    font-size: 16px;
+    margin-top: 3px;
+    font-weight: lighter;
+}
+
 .footer-sect{
     display: flex;
     flex-direction: column;
@@ -340,8 +392,10 @@ img{
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 3rem;
     border-top: 1px solid;
+    font-weight: lighter;
+    margin-top: 50px;
 }
 
 .footer-gallery{
@@ -387,8 +441,8 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 3rem;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
