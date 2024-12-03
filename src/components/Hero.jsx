@@ -7,9 +7,9 @@ const Hero = () => {
             <div>
                 <Navbar />
                 <div className='flex flex-col pt-36 pl-44'>
-                    <p className='text-[2rem] font-bold italic'>Hi I am</p>
+                    <p className='text-[2rem] font-bold italic text-white'>Hi I am</p>
                     <p className='text-[5rem] font-bold text-[#FFB016]'>Henrrike Quarshie</p>
-                    <p className='text-[3rem] font-bold'>Junior Frontend Developer</p>
+                    <p className='text-[3rem] font-bold text-white'>Junior Frontend Developer</p>
                 </div>
             </div>
         </div>
