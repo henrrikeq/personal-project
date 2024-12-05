@@ -9,7 +9,7 @@ const Skills = () => {
         <p className="flex text-[3rem] justify-center text-[#ffb016] font-bold mt-20 mb-9">
           My Skills
         </p>
-        <p className="flex text-[20px]">
+        <p className="flex text-[18px]">
           Skilled in React, with a solid foundation in HTML, CSS, and JavaScript, I am passionate
           about designing intuitive and engaging user experiences. I excel in dynamic, innovative
           environments and am dedicated to ongoing growth in the ever-evolving tech industry.

@@ -66,7 +66,7 @@ const Navbar = () => {
             href="#blog"
             className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "blog" ? "border-b-2 border-[#FFB016]" : ""}`}
           >
-            Blog
+            Projects
           </a>
           <a
             href="#footer"

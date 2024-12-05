@@ -10,24 +10,24 @@ const Resume = () => {
           <p className="flex text-[2.5rem] font-semibold">Education</p>
           <div className='flex flex-col mr-20 '>
             <div className=' h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>2015-2018</p>
-              <p className='text-[28px]'>GENERAL SCIENCE</p>
+              <p className='text-[20px] font-bold'>2015-2018</p>
+              <p className='text-[20px]'>GENERAL SCIENCE</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[20px] font-semibold'>Krobo Girls' Senior High School</p>
+                <p className='text-[18px] font-semibold'>Krobo Girls' Senior High School</p>
               </div>
             </div>
             <div className='h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>2018-2022</p>
-              <p className='text-[28px]'>BIOLOGICAL SCIENCE</p>
+              <p className='text-[20px] font-bold'>2018-2022</p>
+              <p className='text-[20px]'>BIOLOGICAL SCIENCE</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[20px] font-semibold'>Kwame Nkrumah University of Science and Technology</p>
+                <p className='text-[18px] font-semibold'>Kwame Nkrumah University of Science and Technology</p>
               </div>
             </div>
             <div className=' h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>2024 - Present</p>
-              <p className='text-[28px]'>MEST</p>
+              <p className='text-[18px] font-bold'>2024 - Present</p>
+              <p className='text-[20px]'>MEST</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
                 <p className='text-[20px] font-semibold'>Web Developement</p>
@@ -39,16 +39,16 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="border-2 rounded-full h-[70vh] mt-32"></div>
+        <div className="border-2 rounded-full h-[70vh] mt-32 bg-[#e5e7eb]"></div>
         <div className="ml-12">
           <p className="flex text-[2.5rem] font-semibold">Experience</p>
           <div className="flex flex-col">
             <div className=' h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>October,2021 - November,2021</p>
-              <p className='text-[28px]'>INTERNSHIP</p>
+              <p className='text-[18px] font-bold'>October,2021 - November,2021</p>
+              <p className='text-[20px]'>INTERNSHIP</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[20px] font-semibold'>Council For Scientific And Industrial Research</p>
+                <p className='text-[18px] font-semibold'>Council For Scientific And Industrial Research</p>
               </div>
               <div className='flex ml-1.5'>
                 <p><RxDotFilled /></p>
@@ -56,11 +56,11 @@ const Resume = () => {
               </div>
             </div>
             <div className='h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>2022 - 2023</p>
-              <p className='text-[28px]'>NATIONAL SERVICES</p>
+              <p className='text-[18px] font-bold'>2022 - 2023</p>
+              <p className='text-[20px]'>NATIONAL SERVICES</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[20px] font-semibold'>Council For Scientific And Industrial Research</p>
+                <p className='text-[18px] font-semibold'>Council For Scientific And Industrial Research</p>
               </div>
               <div className='flex ml-1.5'>
                 <p ><RxDotFilled /></p>
@@ -69,11 +69,11 @@ const Resume = () => {
             </div>
 
             <div className='  h-[35vh] w-[30vw] gap-3 p-4'>
-              <p className='text-[25px] font-bold'>November,2024</p>
-              <p className='text-[28px]'>INTERNSHIP</p>
+              <p className='text-[18px] font-bold'>November,2024</p>
+              <p className='text-[20px]'>INTERNSHIP</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[20px] font-semibold'>Coextreme</p>
+                <p className='text-[18px] font-semibold'>Coextreme</p>
               </div>
               <div className='flex ml-1.5'>
                 <p><RxDotFilled /></p>
