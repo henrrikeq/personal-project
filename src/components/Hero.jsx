@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
+import { TfiEmail } from 'react-icons/tfi';
+import { LiaPhoneVolumeSolid } from 'react-icons/lia';
 
 const Hero = () => {
     return (
@@ -12,9 +14,15 @@ const Hero = () => {
                             <p className='text-[2rem] font-bold italic text-white'>Hello I am</p>
                             <p className='text-[4rem] font-bold text-[#FFB016]'>Henrrike Quarshie</p>
                             <p className='text-[2.5rem] font-bold text-white'>Junior Frontend Developer</p>
-                            <div className='flex gap-5 mt-3'>
-                                <button className='border-2 text-[13px] font-semibold py-2 px-2 rounded-full bg-[#FFB016] border-[#FFB016]'>HIRE ME</button>
-                                <button className='border-2 text-[13px] font-semibold py-2 px-2 rounded-full text-black bg-white border-white'>MY WORKS</button>
+                            <div className='flex flex-col gap-5 mt-3 text-white '>
+                                <div className='flex gap-3'>
+                                    <p className='mt-1 text-[#FFB016]'><TfiEmail /></p>
+                                    <p className=''>henrrikequarshie@gmail.com</p>
+                                </div>
+                                <div className='flex gap-3'>
+                                    <p className='mt-1 text-[#FFB016]'><LiaPhoneVolumeSolid /></p>
+                                    <p>+233 244 259 239</p>
+                                </div>
                             </div>
                         </div>
 

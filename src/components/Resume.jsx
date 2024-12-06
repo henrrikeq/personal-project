@@ -73,7 +73,7 @@ const Resume = () => {
               <p className='text-[20px]'>INTERNSHIP</p>
               <div className='flex'>
                 <p className='text-[28px] mt-0.5'><RxDotFilled /></p>
-                <p className='text-[18px] font-semibold'>Coextreme</p>
+                <p className='text-[18px] font-semibold'>Coextreme Technologies LTD</p>
               </div>
               <div className='flex ml-1.5'>
                 <p><RxDotFilled /></p>

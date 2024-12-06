@@ -81,13 +81,14 @@ const Footer = () => {
             onClick={scrollToHero}
           >
             <p className='text-[15px]'>
-            <FaChevronUp />
+              <FaChevronUp />
             </p>
           </div>
         )}
-        <div>
-          <p className='flex mt-7'>Copyright</p>
-        </div>
+        
+          <div className="w-full text-center py-4 text-gray-500 text-[12px] mt-5">
+            Copyright&copy;{new Date().getFullYear()} Henrrike. All Rights Reserved.
+          </div>
       </div>
     </div>
   );

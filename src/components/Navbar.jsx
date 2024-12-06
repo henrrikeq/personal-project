@@ -40,37 +40,37 @@ const Navbar = () => {
         <nav className="flex gap-6 pr-10 font-semibold">
           <a
             href="#about"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "about" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "about" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             About
           </a>
           <a
             href="#resume"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "resume" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "resume" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             Resume
           </a>
           <a
             href="#skills"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "skills" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "skills" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             Skills
           </a>
           <a
             href="#services"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "services" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "services" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             Services
           </a>
           <a
             href="#blog"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "blog" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "blog" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             Projects
           </a>
           <a
             href="#footer"
-            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "footer" ? "border-b-2 border-[#FFB016]" : ""}`}
+            className={`hover:text-[#FFB016] transition duration-300 ${activeSection === "footer" ? "border-b-4 border-[#FFB016]" : ""}`}
           >
             Contact
           </a>
