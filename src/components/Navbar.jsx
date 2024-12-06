@@ -77,7 +77,7 @@ const Navbar = () => {
         </nav>
 
         {/* Contact Section */}
-        <div className="flex mr-20 gap-2 border-2 p-2 px-7 py-3 bg-[#FFB016] text-[14px] text-white border-[#FFB016]">
+        <div className="flex mr-20 gap-2 border-2 p-2 px-7 py-3 bg-[#FFB016] text-[14px] text-white border-[#FFB016] hover:bg-black hover:text-white hover:border-black">
           <p>Available for freelance work</p>
         </div>
       </div>
