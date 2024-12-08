@@ -91,7 +91,7 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("");
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Handle scroll and set active section
   const handleScroll = () => {
@@ -104,8 +104,10 @@ const Navbar = () => {
         const offsetTop = element.offsetTop;
         const offsetHeight = element.offsetHeight;
 
-        // Check if the scroll position is within the section's range
-        if (scrollPosition >= offsetTop - 50 && scrollPosition < offsetTop + offsetHeight) {
+        if (
+          scrollPosition >= offsetTop - 50 &&
+          scrollPosition < offsetTop + offsetHeight
+        ) {
           setActiveSection(section);
         }
       }
@@ -137,9 +139,17 @@ const Navbar = () => {
             viewBox="0 0 24 24"
           >
             {isMenuOpen ? (
-              <path d="M6 18L18 6M6 6l12 12" />
+              <path
+                fillRule="evenodd"
+                d="M6 18L18 6M6 6l12 12"
+                clipRule="evenodd"
+              />
             ) : (
-              <path d="M4 5h16M4 12h16m-7 7h7" />
+              <path
+                fillRule="evenodd"
+                d="M4 5h16M4 12h16m-7 7h7"
+                clipRule="evenodd"
+              />
             )}
           </svg>
         </button>
@@ -147,8 +157,8 @@ const Navbar = () => {
         {/* Navigation Section */}
         <nav
           className={`${
-            isMenuOpen ? "block" : "hidden"
-          } lg:flex gap-6 items-center font-semibold transition-all duration-300`}
+            isMenuOpen ? "flex" : "hidden"
+          } lg:flex flex-col lg:flex-row gap-4 items-center font-semibold absolute lg:static top-16 left-0 right-0 bg-white lg:bg-transparent shadow-lg lg:shadow-none px-6 lg:px-0 py-4 lg:py-0 z-40`}
         >
           {[
             { id: "about", label: "About" },
@@ -166,6 +176,7 @@ const Navbar = () => {
                   ? "text-[#FFB016] after:scale-x-100"
                   : "text-gray-800 after:scale-x-0"
               } after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#FFB016] after:transition-transform after:duration-300 after:scale-x-0 hover:text-[#FFB016] hover:after:scale-x-100`}
+              onClick={() => setIsMenuOpen(false)} // Close menu after clicking
             >
               {item.label}
             </a>
